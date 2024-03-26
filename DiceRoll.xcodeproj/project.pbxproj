@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E981F9A82BB2F8FF00540921 /* ShakeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E981F9A72BB2F8FF00540921 /* ShakeExtension.swift */; };
+		E981F9AB2BB3143200540921 /* RandomDice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E981F9AA2BB3143200540921 /* RandomDice.swift */; };
 		E9EEEF1A2BAC621900506341 /* DiceRollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEEF192BAC621900506341 /* DiceRollApp.swift */; };
 		E9EEEF1C2BAC621900506341 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEEF1B2BAC621900506341 /* ContentView.swift */; };
 		E9EEEF1E2BAC621A00506341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EEEF1D2BAC621A00506341 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E981F9A72BB2F8FF00540921 /* ShakeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeExtension.swift; sourceTree = "<group>"; };
+		E981F9AA2BB3143200540921 /* RandomDice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDice.swift; sourceTree = "<group>"; };
 		E9EEEF162BAC621900506341 /* DiceRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9EEEF192BAC621900506341 /* DiceRollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollApp.swift; sourceTree = "<group>"; };
 		E9EEEF1B2BAC621900506341 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E981F9A92BB3141F00540921 /* Dice */ = {
+			isa = PBXGroup;
+			children = (
+				E9EEEF272BAC63FC00506341 /* DiceSide.swift */,
+				E981F9AA2BB3143200540921 /* RandomDice.swift */,
+			);
+			path = Dice;
+			sourceTree = "<group>";
+		};
 		E9EEEF0D2BAC621900506341 = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +66,10 @@
 		E9EEEF182BAC621900506341 /* DiceRoll */ = {
 			isa = PBXGroup;
 			children = (
+				E981F9A92BB3141F00540921 /* Dice */,
 				E9EEEF192BAC621900506341 /* DiceRollApp.swift */,
 				E9EEEF1B2BAC621900506341 /* ContentView.swift */,
-				E9EEEF272BAC63FC00506341 /* DiceSide.swift */,
+				E981F9A72BB2F8FF00540921 /* ShakeExtension.swift */,
 				E9EEEF1D2BAC621A00506341 /* Assets.xcassets */,
 				E9EEEF1F2BAC621A00506341 /* Preview Content */,
 			);
@@ -140,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E981F9A82BB2F8FF00540921 /* ShakeExtension.swift in Sources */,
 				E9EEEF1C2BAC621900506341 /* ContentView.swift in Sources */,
 				E9EEEF1A2BAC621900506341 /* DiceRollApp.swift in Sources */,
+				E981F9AB2BB3143200540921 /* RandomDice.swift in Sources */,
 				E9EEEF282BAC63FC00506341 /* DiceSide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
