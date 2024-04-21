@@ -4,6 +4,8 @@
 //
 //  Created by Maks Winters on 21.04.2024.
 //
+// https://www.advancedswift.com/date-formatter-cheatsheet-formulas-swift/
+//
 
 import Foundation
 

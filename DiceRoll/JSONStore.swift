@@ -4,6 +4,8 @@
 //
 //  Created by Maks Winters on 21.04.2024.
 //
+// https://www.hackingwithswift.com/example-code/system/how-to-save-user-settings-using-userdefaults
+//
 
 import Foundation
 
