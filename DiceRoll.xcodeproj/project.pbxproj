@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E93AAEE32BD5866C00B105C1 /* JSONStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93AAEE22BD5866C00B105C1 /* JSONStore.swift */; };
+		E93AAEE52BD587A500B105C1 /* RollLogClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93AAEE42BD587A500B105C1 /* RollLogClass.swift */; };
+		E93AAEE72BD58C0F00B105C1 /* RollHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93AAEE62BD58C0F00B105C1 /* RollHistoryView.swift */; };
+		E93AAEE92BD5947400B105C1 /* LogEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93AAEE82BD5947400B105C1 /* LogEntryView.swift */; };
 		E981F9A82BB2F8FF00540921 /* ShakeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E981F9A72BB2F8FF00540921 /* ShakeExtension.swift */; };
 		E981F9AB2BB3143200540921 /* RandomDice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E981F9AA2BB3143200540921 /* RandomDice.swift */; };
 		E9EEEF1A2BAC621900506341 /* DiceRollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEEF192BAC621900506341 /* DiceRollApp.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E93AAEE22BD5866C00B105C1 /* JSONStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStore.swift; sourceTree = "<group>"; };
+		E93AAEE42BD587A500B105C1 /* RollLogClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollLogClass.swift; sourceTree = "<group>"; };
+		E93AAEE62BD58C0F00B105C1 /* RollHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollHistoryView.swift; sourceTree = "<group>"; };
+		E93AAEE82BD5947400B105C1 /* LogEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntryView.swift; sourceTree = "<group>"; };
 		E981F9A72BB2F8FF00540921 /* ShakeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeExtension.swift; sourceTree = "<group>"; };
 		E981F9AA2BB3143200540921 /* RandomDice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDice.swift; sourceTree = "<group>"; };
 		E9EEEF162BAC621900506341 /* DiceRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +77,11 @@
 				E981F9A92BB3141F00540921 /* Dice */,
 				E9EEEF192BAC621900506341 /* DiceRollApp.swift */,
 				E9EEEF1B2BAC621900506341 /* ContentView.swift */,
+				E93AAEE62BD58C0F00B105C1 /* RollHistoryView.swift */,
 				E981F9A72BB2F8FF00540921 /* ShakeExtension.swift */,
+				E93AAEE22BD5866C00B105C1 /* JSONStore.swift */,
+				E93AAEE42BD587A500B105C1 /* RollLogClass.swift */,
+				E93AAEE82BD5947400B105C1 /* LogEntryView.swift */,
 				E9EEEF1D2BAC621A00506341 /* Assets.xcassets */,
 				E9EEEF1F2BAC621A00506341 /* Preview Content */,
 			);
@@ -155,9 +167,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E981F9A82BB2F8FF00540921 /* ShakeExtension.swift in Sources */,
+				E93AAEE32BD5866C00B105C1 /* JSONStore.swift in Sources */,
 				E9EEEF1C2BAC621900506341 /* ContentView.swift in Sources */,
+				E93AAEE52BD587A500B105C1 /* RollLogClass.swift in Sources */,
 				E9EEEF1A2BAC621900506341 /* DiceRollApp.swift in Sources */,
 				E981F9AB2BB3143200540921 /* RandomDice.swift in Sources */,
+				E93AAEE72BD58C0F00B105C1 /* RollHistoryView.swift in Sources */,
+				E93AAEE92BD5947400B105C1 /* LogEntryView.swift in Sources */,
 				E9EEEF282BAC63FC00506341 /* DiceSide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
