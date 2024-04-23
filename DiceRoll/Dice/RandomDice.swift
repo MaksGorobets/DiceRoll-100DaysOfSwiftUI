@@ -9,6 +9,7 @@ import SwiftUI
 import Combine
 
 struct RandomDice: View {
+    private let haptics = Haptics()
     
     @State private(set) var number = 1
     @State private var timer: Publishers.Autoconnect<Timer.TimerPublisher>?
@@ -25,6 +26,7 @@ struct RandomDice: View {
             .onReceive(timer ?? publisherPlaceholder) { time in
                 if isAnimating {
                     randomize()
+                    haptics.knock(intensity: 0.5, sharpness: 0.5)
                 }
             }
     }
